@@ -1,0 +1,62 @@
+.sidenav {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+.full_dropdown
+{
+  margin-top: 90px;
+}
+
+label{
+  color: white;
+}
+
+form{
+  margin-bottom: 60px;
+}
+
+
+.heading3
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.livedata
+{
+text-align: center;
+margin-bottom: 50px;
+}
+.status
+{
+  margin-bottom: 50px;
+}
+
+.sensorim
+{
+  display:block;
+  margin: auto;
+
+}
+
+.table
+{
+  margin-top: 40px;
+}
+.stat_table{
+  height:400px;
+}
+
+.livegraph{
+  display: block;
+  margin: auto;
+}

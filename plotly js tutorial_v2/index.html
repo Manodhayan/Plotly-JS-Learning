@@ -1,0 +1,27 @@
+﻿<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="plotly.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyA7_XyfINo6OxLnG5mT3MP3KsKiMrCqduo",
+                authDomain: "hospital-ambience.firebaseapp.com",
+                databaseURL: "https://hospital-ambience.firebaseio.com",
+                projectId: "lora-dash-board",
+                storageBucket: "hospital-ambience.appspot.com",
+                messagingSenderId: "24810797096"
+                };
+                firebase.initializeApp(config);
+        </script>
+</head>
+<body>
+    <div class="navbar"><span>Real-Time Chart with Plotly.js</span></div>
+    <div class="wrapper">
+        <div id="chart_1"></div>
+        <div id="div2"></div>
+        <script src="Script1.js"></script>
+    </div>
+</body>
+</html>
